@@ -9,6 +9,10 @@ import { InputTestPage } from './pages/input-test/input-test';
 import { ListTestPage } from './pages/list-test/list-test';
 import { GridTestPage } from './pages/grid-test/grid-test';
 import { ModalTestPage } from './pages/modal-test/modal-test';
+import { NavigationTestPage } from './pages/navigation-test/navigation-test';
+import { TabTestPage } from './pages/tab-test/tab-test';
+import { ToastTestPage } from './pages/toast-test/toast-test';
+import { ToolbarTestPage } from './pages/toolbar-test/toolbar-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -26,8 +30,13 @@ export class MyApp {
       { component: InputTestPage, title: 'Input Teste', icon: 'key' },
       { component: ListTestPage, title: 'List Teste', icon: 'list' },
       { component: GridTestPage, title: 'Grid Teste', icon: 'grid' },
-      { component: ModalTestPage, title: 'Modal Teste', icon: 'move' }
+      { component: ModalTestPage, title: 'Modal Teste', icon: 'move' },
+      { component: NavigationTestPage, title: 'Navigation Teste', icon: 'bicycle' },
+      { component: TabTestPage, title: 'Tab Teste', icon: 'albums' },
+      { component: ToastTestPage, title: 'Toast Teste', icon: 'chatbubbles' },
+      { component: ToolbarTestPage, title: 'Toolbar Teste', icon: 'checkmark-circle' }
 
+      
     ];
     
 
